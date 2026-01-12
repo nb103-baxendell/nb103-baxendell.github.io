@@ -1,0 +1,148 @@
+/* Basic styles */
+body {
+  font-family: 'Merriweather', serif !important; /*I had to add important to get the font to load correclty*/
+  background-color: #f0f8f4; /* Light green background */
+  color: #333; /* Dark text for better readability */
+}
+/* Navigation bar */
+.navbar {
+  background-color: #77966D; /* light green background */
+}
+
+.navbar a {
+  color: #F4F7F5; /* light neutral text */
+}
+
+.navbar a:hover {
+  color: #D8DBE2; /* subtle highlight for links */
+}
+
+/* Header section */
+header {
+  background-color: #77966D; /* light green */
+  color: #F4F7F5; /* light neutral text */
+  padding: 50px 0;
+}
+
+h1, h3 {
+  color: #F4F7F5;
+}
+
+h1 .subtitle {
+  font-size: 1.5em;
+  color: #D8DBE2;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #D8DBE2; 
+}
+
+/* About section */
+.bg-light {
+  background-color: #D8DBE2; 
+  padding: 50px 0;
+}
+
+.about-text {
+  color: #626D58; /* dark green */
+}
+
+a.subtitle {
+  color: #77966D; /* light green for links */
+}
+
+a.subtitle:hover {
+  color: #626D58; /* dark green on hoverfor links */
+}
+
+/* Project cards and all cards */
+.card {
+  background-color: #F4F7F5; /* neutral background for cards */
+  border: 1px solid #D8DBE2; /* light border color for cards */
+  border-radius: 10px;
+  overflow: hidden; /* ensure no overflow from cards */
+  margin-bottom: 30px; /* add space between cards */
+  width: 900px; /* fixed width for large screens */
+  margin: 20px auto; /* center cards and add spacing between them */
+}
+
+.card-body {
+  padding: 15px;
+  color: #626D58; /* dark green text for content */
+}
+
+.card-title {
+  color: #77966D; /* light green title */
+}
+
+.card-text {
+  color: #626D58; /* dark green text */
+}
+
+/* image and video scaling for all html pages*/
+
+.profile {
+  width: 440px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.img-fluid {
+  width: 50%; 
+  height: 300px; /* fixed height  */
+  object-fit: cover;
+  object-position: center; /* centerimage */
+  margin-right: 20px;
+
+}
+
+video {
+  margin-right: 20px;
+}
+
+
+/* Button styling */
+.btn-primary {
+  background-color: #77966D; 
+  border-color: #77966D;
+}
+
+.btn-primary:hover {
+  background-color: #626D58; 
+  border-color: #626D58;
+}
+
+.btn-outline-dark {
+  color: #626D58; /* dark green button */
+  border-color: #626D58;
+}
+
+.btn-outline-dark:hover {
+  background-color: #D8DBE2; 
+  border-color: #D8DBE2;
+}
+
+/* Footer */
+footer {
+  background-color: #626D58; /* dark green footer */
+  color: #F4F7F5; /* light neutral text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #F4F7F5;
+}
+
+footer a:hover {
+  color: #D8DBE2; 
+}
+
+section.container > .row > .col-12 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
